@@ -1,0 +1,32 @@
+{
+        "Electronics": {
+            "Mobile Phones": {
+                "Smartphones": ["iPhone", "Android"],
+                "Accessories": ["Cases", "Chargers"]
+            },
+            "Computers": {
+                "Laptops": ["MacBook", "Windows Laptop"],
+                "Desktops": ["Gaming PC", "Office PC"]
+            }
+        },
+        "Clothing": {
+            "Men": {
+                "Shirts": ["T-Shirts", "Formal Shirts"],
+                "Trousers": ["Jeans", "Chinos"]
+            },
+            "Women": {
+                "Dresses": ["Casual Dresses", "Evening Dresses"],
+                "Skirts": ["Mini Skirts", "Long Skirts"]
+            }
+        },
+        "Books": {
+            "Fiction": {
+                "Novels": ["Sci-Fi", "Fantasy"],
+                "Short Stories": ["Anthologies", "Collections"]
+            },
+            "Non-Fiction": {
+                "Biographies": ["Historical", "Celebrity"],
+                "Science": ["Physics", "Biology"]
+            }
+        }
+    }
