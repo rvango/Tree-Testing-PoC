@@ -94,3 +94,21 @@ As a result, I recommend for a simpler and possibly more robust solution: replic
 tool.
 This tool provides a clear, step-by-step interaction model for LLMs, closely mimicking the human user experience on Kort
 but in a constrained, easily manageable environment.
+
+# BONUS: Conversion tool for Kort
+
+This project includes a `convert_to_kort.py` script that facilitates populating Kort with tree tests using a friendly structure.
+
+## Usage
+
+```bash
+python convert_to_kort.py tree.json
+```
+
+To output the data in a compact format, use the --compact flag instead:
+
+```bash
+python convert_to_kort.py tree.json --compact
+```
+
+The script will convert the tree structure into the Kort-compatible format and display the result in the terminal. The output can then be copied and pasted into the MongoDB table to populate the database with the tree structure.
