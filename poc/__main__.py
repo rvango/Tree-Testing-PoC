@@ -13,4 +13,5 @@ if __name__ == "__main__":
     tree_nodes = TreeNode.build_tree_from_dict(tree_structure)
 
     # Start navigation
+    print("Task: You wish to read about Winston Churchill. Where should you navigate to?")
     print(Navigation(tree_nodes).start())
